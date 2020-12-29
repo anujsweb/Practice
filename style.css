@@ -1,9 +1,20 @@
+.root {
+    --primary-color: #babeca;
+}
+
+.navigation {
+
+}
 .container {
     display: block;
 }
 
 .fluid-container {
-
+margin: 0;
+padding: 0rem 0rem;
+background-color: #6e7074;
+color:rgb(241, 28, 28);
+border-bottom-left-radius: 1rem;
 }
 
 .center-container {
@@ -29,4 +40,12 @@
 
 .no-bullets {
     
+}
+
+footer h1 {
+color: blue
+}
+
+nav .pages {
+    text-align: right;
 }
