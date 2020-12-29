@@ -1,29 +1,40 @@
-.root {
+:root {
     --primary-color: #babeca;
 }
 
-.navigation {
+body {
+    margin: 0px;
+    background-color: rgb(252, 214, 212);
+}
 
+.navigation {
+border-bottom-left-radius: 1rem;
 }
 .container {
     display: block;
+    padding: ;
 }
 
 .fluid-container {
 margin: 0;
-padding: 0rem 0rem;
-background-color: #6e7074;
-color:rgb(241, 28, 28);
-border-bottom-left-radius: 1rem;
+padding: 1rem 0rem;
+background-color: #2b2d33;
+color:rgb(233, 3, 3);
 font-size:1.5rem;
+}
+
+footer {
+    border-top-right-radius: 1rem;
 }
 
 .center-container {
     text-align: center;
 }
 
-.links {
-
+.link {
+text-decoration: none;
+padding: 0.1rem 0.5rem;
+color: lightcoral;
 }
 
 .primary-link {
@@ -39,14 +50,60 @@ font-size:1.5rem;
 
 }
 
+.list-item-inline {
+    display: inline;
+    padding: 0rem 0.3rem;
+    text-align: right;
+}
+
 .no-bullets {
-    
+    list-style: none;
+    padding: 0rem;
+    margin: 0rem;
 }
 
 footer h1 {
 color: blue
 }
 
+footer ul {
+    padding-inline-start: 0px;
+    padding: 0rem;
+}
+
+
 nav .pages {
     text-align: right;
+}
+
+.al {
+    text-align: right;
+}
+
+.brand {
+    padding: 0rem 1rem;
+    font-weight: bold;
+    font-style:oblique;
+}
+
+.footer-header {
+    text-decoration: underline;
+}
+
+.heads .im {
+    text-align: center;
+    display: block;
+    max-width: 350px;
+    margin: auto;
+}
+
+.heads {
+    padding: 2rem;
+}
+
+.heads .head {
+    text-align: center;
+    font-size: 50px;
+    padding: 1.5rem;
+    color: #000000;
 }
