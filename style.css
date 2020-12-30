@@ -8,19 +8,20 @@ body {
 }
 
 .navigation {
-border-bottom-left-radius: 1rem;
+    border-bottom-left-radius: 1rem;
 }
+
 .container {
     display: block;
     padding: ;
 }
 
 .fluid-container {
-margin: 0;
-padding: 1rem 0rem;
-background-color: #2b2d33;
-color:rgb(233, 3, 3);
-font-size:1.5rem;
+    margin: 0;
+    padding: 1rem 0rem;
+    background-color: #2b2d33;
+    color: rgb(233, 3, 3);
+    font-size: 1.5rem;
 }
 
 footer {
@@ -32,23 +33,16 @@ footer {
 }
 
 .link {
-text-decoration: none;
-padding: 0.1rem 0.5rem;
-color: lightcoral;
+    text-decoration: none;
+    padding: 0.1rem 0.5rem;
+    color: lightcoral;
 }
 
-.primary-link {
+.primary-link {}
 
-}
+.secondary-link {}
 
-.secondary-link {
-
-}
-
-.lists {
-
-
-}
+.lists {}
 
 .list-item-inline {
     display: inline;
@@ -63,7 +57,7 @@ color: lightcoral;
 }
 
 footer h1 {
-color: blue
+    color: blue
 }
 
 footer ul {
@@ -83,7 +77,7 @@ nav .pages {
 .brand {
     padding: 0rem 1rem;
     font-weight: bold;
-    font-style:oblique;
+    font-style: oblique;
 }
 
 .footer-header {
@@ -106,4 +100,24 @@ nav .pages {
     font-size: 50px;
     padding: 1.5rem;
     color: #000000;
+}
+
+#output {
+    height: 10vh;
+    width: 80%;
+    border: 1px solid black;
+    padding: 1rem;
+    margin: 1rem;
+}
+
+textarea {
+    border: black solid 1px;
+    height: 10vh;
+    width: 80%;
+    margin: 1rem;
+    padding: 1rem;
+}
+
+button {
+    margin: 1rem;
 }
